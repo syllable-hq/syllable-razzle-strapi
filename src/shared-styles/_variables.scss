@@ -1,0 +1,28 @@
+$color-primary: #313E50;
+$font-size-base: 16px;
+
+@font-face {
+  font-family: 'Matter-Regular';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+  /* Download only latin glyphs */
+  src: url('/fonts/Matter-Regular.woff2') format('woff2'),
+    url('/fonts/Matter-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Matter-SemiBold';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+  /* Download only latin glyphs */
+  src: url('/fonts/Matter-SemiBold.woff2') format('woff2'),
+    url('/fonts/Matter-SemiBold.woff') format('woff');
+}
+
+$font-family: 'Matter-Regular', serif; //sans-serif;
+$font-family-bold: 'Matter-SemiBold', serif; //sans-serif;
+$font-weight-bold: 600;
